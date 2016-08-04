@@ -7,12 +7,13 @@ ExpressionEngine 3 Extension for using the CKEditor VideoDetector plugin with WY
 
 ##Installation
 
-1. Download the CKEditor [Videodetector plugin](http://ckeditor.com/addon/videodetector)
-2. Unzip the plugin to /themes/user/wygwam/lib/ckeditor/plugins/videodetector
-3. Download this EE extension to /system/user/addons/ and activate it in the Add-on manager.
+1. Download the CKEditor [Videodetector plugin](http://ckeditor.com/addon/videodetector).
+2. Create a ckeditor-plugins directory in /themes/user
+3. Unzip the plugin to /themes/user/ckeditor-plugins/videodetector. 
+4. Download this EE extension to /system/user/addons/ and activate it in the Add-on manager.
 
 ## Configuration
-1. Navigate to Add-On Manager / Wygwam / Edit Configurition / MyWYGWAM 
+1. Navigate to Add-On Manager / Wygwam / Edit Configuration / MyWYGWAM 
 2. Under "Customize the Toolbar" add the VideoDetector icon (the play symbol in a circle).
 3. Under "Advanced Settings", add videodetector to extraPlugins after selecting that option.
 

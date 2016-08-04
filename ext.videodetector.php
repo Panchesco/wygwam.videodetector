@@ -3,8 +3,8 @@
 class Videodetector_ext
 {
     var $name           = 'WYGWAM/CKEditor Videodetector Plugin';
-    var $version        = '1.0.0';
-    var $description    = 'ExpressionEngine 3 Extension for adding CKEditor Video Detector Plugin';
+    var $version        = '1.0.1';
+    var $description    = 'ExpressionEngine 3 Extension for adding CKEditor Video Detector Plugin to WYGWAM fields';
     var $docs_url       = 'https://github.com/panchesco/wygwam.videodetector/';
     var $settings_exist = 'n';
     
@@ -95,7 +95,7 @@ class Videodetector_ext
         if (!self::$_included_resources)
         {
             // Tell CKEditor where to find our plugin
-            $plugin_url = URL_THIRD_THEMES.'wygwam/lib/ckeditor/plugins/videodetector/';
+            $plugin_url = URL_THIRD_THEMES.'ckeditor-plugins/videodetector/';
             ee()->cp->add_to_foot('<script type="text/javascript">CKEDITOR.plugins.addExternal("videodetector", "'.$plugin_url.'");</script>');
 
             // Don't do that again
@@ -120,7 +120,7 @@ class Videodetector_ext
         if (ee()->uri->segment(4)=='wygwam' && ee()->uri->segment(5)=='editConfig')
         {
             // Give our toolbar button an icon
-            $icon_url = URL_THIRD_THEMES.'wygwam/lib/ckeditor/plugins/videodetector//icons/icon_black.png';
+            $icon_url = URL_THIRD_THEMES.'ckeditor-plugins/videodetector/icons/icon_black.png';
 		  ee()->cp->add_to_head('<style type="text/css">.cke_button_icon.cke_button__videodetector_icon { background-image: url('.$icon_url.'); }</style>');
          
         }

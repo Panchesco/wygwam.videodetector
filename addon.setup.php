@@ -4,6 +4,6 @@ return array(
       'author_url'  => 'https://github.com/panchesco',
       'name'        => 'WYGWAM/CKEditor Videodetector',
       'description' => 'ExpressionEngine 3 Extension for using the CKEditor VideoDetector plugin with WYGWAM fields',
-      'version'     => '1.0.0',
-      'namespace'   => 'Addons\Videodetector'
+      'version'     => '1.0.1',
+      'namespace'   => 'Panchesco\Addons\Videodetector'
 );

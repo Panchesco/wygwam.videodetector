@@ -1,0 +1,6 @@
+1.0.1    
+    - Created /themes/user/ckeditor-plugins to move plugin out of /themes/user/wygwam.
+    - Additional documentation.
+     
+1.0.0    
+    - Initial release
