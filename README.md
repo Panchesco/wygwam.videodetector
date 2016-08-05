@@ -1,5 +1,7 @@
 #Videodetector
-ExpressionEngine 3 Extension for using the CKEditor VideoDetector plugin with WYGWAM fields.
+This is an ExpressionEngine 3 extension for using the CKEditor VideoDetector plugin with WYGWAM fields.
+
+Once the plugin and extension are added, you'll be able to render YouTube, Vimeo, and DailyMotion videos in your WYGWAM fields by providing URL for the video you want to display.
 
 ## Requirements
  - [ExpressionEngine 3](https://ellislab.com/expressionengine)
@@ -7,10 +9,15 @@ ExpressionEngine 3 Extension for using the CKEditor VideoDetector plugin with WY
 
 ##Installation
 
+In addition to adding this extension to ExpressionEngine, you'll need to download and add the CKEditor videodetector plugin.
+
+###CKEditor Plugin
 1. Download the CKEditor [Videodetector plugin](http://ckeditor.com/addon/videodetector).
 2. Create a ckeditor-plugins directory in /themes/user
-3. Unzip the plugin to /themes/user/ckeditor-plugins/videodetector. 
-4. Download this EE extension to /system/user/addons/ and activate it in the Add-on manager.
+3. Unzip the CKEditor videodetector plugin to /themes/user/ckeditor-plugins/videodetector. 
+
+###ExpressionEngine Add-on
+Download this EE extension to /system/user/addons/ and activate it in the Add-on manager.
 
 ## Configuration
 1. Navigate to Add-On Manager / Wygwam / Edit Configuration / MyWYGWAM 
@@ -22,9 +29,9 @@ ExpressionEngine 3 Extension for using the CKEditor VideoDetector plugin with WY
 </figure>
 
 ## Usage
-Once the VideoDetector has been added to the custom field toolbar configuration, you can add a player to WYGWAM fields by clicking on the VideoDetector icon and providing a YouTube, Vimeo, or DailyMotion URL in the pop-up dialag.
+Once the VideoDetector has been added to the custom field toolbar configuration, you can add a player to WYGWAM fields by clicking on the VideoDetector icon and providing a YouTube, Vimeo, or DailyMotion URL in the pop-up dialog.
 
-The player is already fluid in the control panel WYGWAM field. If you'd like it to be fluid to its parent container when rendered in your template, add the following CSS to your stylesheet: 
+The player is already fluid in the control panel WYGWAM field. If you'd like it to be fluid within its parent container when rendered in your template, add the following CSS to your stylesheet: 
 ```
 .videodetector {
   height: 0;
@@ -44,7 +51,7 @@ The player is already fluid in the control panel WYGWAM field. If you'd like it 
 }
 ```
 
-More information about styling fluid width media players that fit their parent container at [CSS-Tricks](https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php).
+More information about styling a fluid width media players that fits its parent container: [CSS-Tricks: Fluid Width Video](https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php).
 
 
 
