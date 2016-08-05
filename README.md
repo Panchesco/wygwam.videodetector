@@ -18,7 +18,7 @@ In addition to adding this extension to ExpressionEngine, you'll need to downloa
 Download this EE extension to /system/user/addons/ and activate it in the Add-on manager.
 
 ## Configuration
-1. Navigate to Add-On Manager / Wygwam / Edit Configuration / MyWYGWAM 
+1. Navigate to the configuration page for your WYGWAM editor.
 2. Under "Customize the Toolbar" add the VideoDetector icon (the play symbol in a circle).
 3. Under "Advanced Settings", add videodetector to extraPlugins after selecting that option.
 
