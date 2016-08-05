@@ -20,7 +20,7 @@ Download this EE extension to /system/user/addons/ and activate it in the Add-on
 ## Configuration
 1. Navigate to the configuration page for your WYGWAM editor.
 2. Under "Customize the Toolbar" add the VideoDetector icon (the play symbol in a circle).
-3. Under "Advanced Settings", add videodetector to extraPlugins after selecting that option.
+3. Under "Advanced Settings", select the extraPlugins and add videodetector.
 
 <figure>
 	<img src="http://panchesco.com/media/mywygwam-videodetector-config.png" alt="WYGWAM field configuration">
@@ -49,7 +49,7 @@ The player is already fluid in the control panel WYGWAM field. If you'd like it 
 }
 ```
 
-More information about styling a fluid width media players that fits its parent container: [CSS-Tricks: Fluid Width Video](https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php).
+More information about styling a fluid width media player that fits its parent container: [CSS-Tricks: Fluid Width Video](https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php).
 
 
 
