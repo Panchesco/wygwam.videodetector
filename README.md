@@ -1,7 +1,7 @@
 #Videodetector
 This is an ExpressionEngine 3 extension for using the CKEditor VideoDetector plugin with WYGWAM fields.
 
-Once the plugin and extension are added, you'll be able to render YouTube, Vimeo, and DailyMotion videos in your WYGWAM fields by providing URL for the video you want to display.
+Once the plugin and extension are added, you'll be able to render YouTube, Vimeo, and DailyMotion videos in your WYGWAM fields by providing a URL for the video you want to display.
 
 ## Requirements
  - [ExpressionEngine 3](https://ellislab.com/expressionengine)
