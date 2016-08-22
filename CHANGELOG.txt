@@ -1,3 +1,6 @@
+1.0.2
+   - Resolved issue with WYGWAM not finding the plugin. In wygwam_config() method VideoDetector array key had wrong case.
+
 1.0.1    
     - Created /themes/user/ckeditor-plugins to move plugin out of /themes/user/wygwam.
     - Additional documentation.
