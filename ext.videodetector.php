@@ -3,7 +3,7 @@
 class Videodetector_ext
 {
     var $name           = 'WYGWAM/CKEditor Videodetector Plugin';
-    var $version        = '1.0.1';
+    var $version        = '1.0.2';
     var $description    = 'ExpressionEngine 3 Extension for adding CKEditor Video Detector Plugin to WYGWAM fields';
     var $docs_url       = 'https://github.com/panchesco/wygwam.videodetector/';
     var $settings_exist = 'n';
@@ -63,7 +63,7 @@ class Videodetector_ext
 
         foreach ($config['toolbar'] as $tbgroup)
         {
-            if (in_array('videodetector', $tbgroup))
+            if (in_array('VideoDetector', $tbgroup))
             {
                 $include_btn = TRUE;
                 break;
